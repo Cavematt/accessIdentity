@@ -1,0 +1,30 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users/$entity",
+    "businessPhones": [],
+    "displayName": "Matthew Potts",
+    "givenName": "Matthew",
+    "jobTitle": null,
+    "mail": null,
+    "mobilePhone": null,
+    "officeLocation": null,
+    "preferredLanguage": "en",
+    "surname": "Potts",
+    "userPrincipalName": "matthew.potts03_gmail.com#EXT#@matthewpotts03gmail.onmicrosoft.com",
+    "id": "818be762-1350-474b-a040-8f15f6b40078"
+}
+
+
+
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages",
+    "value": [
+        {
+            "id": "f1739a5b-b4a9-4ce9-b456-abb28e174250",
+            "displayName": "Access to Nothing",
+            "description": "Access to Nothing",
+            "isHidden": false,
+            "createdDateTime": "2023-03-26T21:16:06.323Z",
+            "modifiedDateTime": "2023-03-26T21:16:06.323Z"
+        }
+    ]
+}

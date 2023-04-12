@@ -1,0 +1,62 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages(assignmentPolicies())/$entity",
+  "id": "78f07940-c889-4ddf-8c8b-2dc321961a5c",
+  "displayName": "PRODUCTION",
+  "description": "This Gives Prod Access",
+  "isHidden": false,
+  "createdDateTime": "2023-03-26T22:17:42.39Z",
+  "modifiedDateTime": "2023-03-26T23:27:02.06Z",
+  "assignmentPolicies@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages('78f07940-c889-4ddf-8c8b-2dc321961a5c')/assignmentPolicies",
+  "assignmentPolicies": [
+    {
+      "id": "ccaed9bf-2d22-4a04-adef-b55a1ee2853a",
+      "displayName": "Initial Policy",
+      "description": "Initial Policy",
+      "allowedTargetScope": "allDirectoryUsers",
+      "createdDateTime": "2023-03-26T22:17:42.407Z",
+      "modifiedDateTime": "2023-04-06T22:41:14.753Z",
+      "automaticRequestSettings": null,
+      "reviewSettings": null,
+      "specificAllowedTargets": [],
+      "expiration": {
+        "endDateTime": null,
+        "duration": "P365D",
+        "type": "afterDuration"
+      },
+      "requestorSettings": {
+        "enableTargetsToSelfAddAccess": true,
+        "enableTargetsToSelfUpdateAccess": false,
+        "enableTargetsToSelfRemoveAccess": true,
+        "allowCustomAssignmentSchedule": true,
+        "enableOnBehalfRequestorsToAddAccess": false,
+        "enableOnBehalfRequestorsToUpdateAccess": false,
+        "enableOnBehalfRequestorsToRemoveAccess": false,
+        "onBehalfRequestors": []
+      },
+      "requestApprovalSettings": {
+        "isApprovalRequiredForAdd": false,
+        "isApprovalRequiredForUpdate": false,
+        "stages": []
+      },
+      "questions@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages('78f07940-c889-4ddf-8c8b-2dc321961a5c')/assignmentPolicies('ccaed9bf-2d22-4a04-adef-b55a1ee2853a')/questions",
+      "questions": [
+        {
+          "@odata.type": "#microsoft.graph.accessPackageTextInputQuestion",
+          "id": "14f6103c-f16d-416a-aa44-612d94a7a657",
+          "isRequired": true,
+          "isAnswerEditable": true,
+          "text": "What is the number",
+          "sequence": 0,
+          "isSingleLineQuestion": true,
+          "regexPattern": null,
+          "localizations": []
+        }
+      ]
+    }
+  ]
+}
+
+
+Response 2
+
+{"@odata.context":"https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages(assignmentPolicies())/$entity","id":"1edec9da-4458-4226-937f-31518db379c4","displayName":"Simulation","description":"This gives access to the simulation environment","isHidden":false,"createdDateTime":"2023-03-26T22:18:31.393Z","modifiedDateTime":"2023-03-26T23:26:57.87Z","assignmentPolicies@odata.context":"https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages('1edec9da-4458-4226-937f-31518db379c4')/assignmentPolicies","assignmentPolicies":[{"id":"ed31f850-9cd7-462a-94e2-ccbafa8aced9","displayName":"Initial Policy","description":"Initial Policy","allowedTargetScope":"allDirectoryUsers","createdDateTime":"2023-03-26T22:18:31.41Z","modifiedDateTime":"2023-04-05T15:15:47.27Z","automaticRequestSettings":null,"reviewSettings":null,"specificAllowedTargets":[],"expiration":{"endDateTime":null,"duration":"P365D","type":"afterDuration"},"requestorSettings":{"enableTargetsToSelfAddAccess":true,"enableTargetsToSelfUpdateAccess":false,"enableTargetsToSelfRemoveAccess":true,"allowCustomAssignmentSchedule":true,"enableOnBehalfRequestorsToAddAccess":false,"enableOnBehalfRequestorsToUpdateAccess":false,"enableOnBehalfRequestorsToRemoveAccess":false,"onBehalfRequestors":[]},"requestApprovalSettings":{"isApprovalRequiredForAdd":false,"isApprovalRequiredForUpdate":false,"stages":[]},"questions@odata.context":"https://graph.microsoft.com/v1.0/$metadata#identityGovernance/entitlementManagement/accessPackages('1edec9da-4458-4226-937f-31518db379c4')/assignmentPolicies('ed31f850-9cd7-462a-94e2-ccbafa8aced9')/questions","questions":[]}]}
